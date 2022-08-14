@@ -1,0 +1,131 @@
+.footer {
+  background: linear-gradient(#534b4a, #3b3b3b, #202123, #0e1013, #000000);
+}
+
+.footer-container {
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: flex-start;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #cccccc;
+}
+
+.footer-contato li {
+  padding: 30px 5px;
+  font-weight: bold;
+  font-size: 1.9rem;
+  line-height: 1.1;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.footer-contato li a {
+  color: #ffffff;
+}
+
+.email {
+  text-decoration: none;
+}
+
+.footer-copy {
+  grid-column: 1/-1;
+  font-size: 1.125rem;
+  color: #8f8f8f;
+  text-align: center;
+  background: #0e1013 no-repeat;
+}
+
+.footerlinkedin {
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 1px 1px;
+  margin-bottom: 2px 2px;
+  margin-top: 5px;
+}
+
+.linkedinicon {
+  max-width: 2ch;
+  margin-bottom: 22px;
+}
+.footerlinkedin a {
+  color: #8f8f8f;
+  text-decoration: none;
+}
+.footergithub {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 1px 1px;
+  margin-bottom: 2px 2px;
+  margin-top: 5px;
+}
+
+.githubicon {
+  max-width: 2ch;
+  margin-bottom: 22px;
+}
+.footergithub a {
+  color: #8f8f8f;
+  text-decoration: none;
+}
+@media (max-width: 800px) {
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    align-items: center;
+  }
+}
+@media (max-width: 600px) {
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-container li a {
+    font-size: 1.5rem;
+    justify-content: center;
+  }
+}
+.footer-container ul {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.email {
+  padding: 30px 5px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.linkediv {
+  padding: 30px 5px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.gitdiv {
+  padding: 30px 5px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
+}
