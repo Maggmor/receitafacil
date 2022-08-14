@@ -26,7 +26,8 @@
 }
 
 .header-menu a:hover {
-  margin-bottom: auto;
+  margin-bottom: 5px 5px;
+  background: #fee1e7;
   border-radius: 50px;
   border: #3b3b3b;
   background-color: #3b3b3b;
